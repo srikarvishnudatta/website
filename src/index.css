@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+  --indie-cursive: "Indie Flower", cursive;
+  --loto: "Lato", sans-serif;
+
+  --background: hsl(50, 35%, 93%);
+  --primary: hsl(231, 13%, 11%) ;
+  --accent: hsl(228, 76%, 56%);
+
+  --fs-sm: 1rem;
+  --fs-md: 2rem;
+  --fs-lg: 2.7rem;
+
+  --sp-xs: 12px;
+  --sp-sm:20px;
+  --sp-md:24px;
+  --sp-lg:32px;
+}
+*, *::before, ::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+  font-family: var(--loto);
+  color: var(--primary);
+  font-size: var(--fs-sm);
+}
+h1,h2,h3{
+  line-height: 1.1;
+}
+h1{
+  font-size: var(--fs-lg);
+  margin: 0;
+}
+h2{
+  font-size: var(--fs-md);
+  margin: 0;
+}
+p{
+  line-height: 1.5;
+}
+.card{
+  border: 2px solid red;
+}
+.main-container{
+  max-width: min(calc(100% - 40px), 58rem);
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin: 0 auto;
+  padding-top: var(--sp-lg);
+  column-gap: var(--sp-sm);
+}
+.about{
+  grid-column: span 5;
+}
+.experience{
+  grid-column: span 3;
+}
+.projects{
+  grid-column: span 8;
+}
+.about{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: var(--sp-sm);
+}
+.img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--sp-sm);
+}
+.name{
+  color: var(--background);
+  font-family: var(--indie-cursive);
+  background-color: var(--accent);
+}
+.socials img{
+  height: 36px;
+  width: 36px;
+}
+.experience{
+  margin-top: var(--sp-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-md);
+}
+
+.resume{
+  font-family: var(--indie-cursive);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume::after{
+  content: "";
+  display: block;
+  top: 90px;
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  margin-left: 2px;
+  background-color: var(--accent);
+  transition: transform 0.35s ease;
+  transform: scale(0);
+}
+.resume:hover::after{
+  transform: scale(1);
+}
+.projects h1{
+  font-family: var(--indie-cursive);
+}
+
+@media (max-width : 600px) {
+  .main-container{
+    display: block;
+  }
+}
