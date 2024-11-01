@@ -1,0 +1,11 @@
+.button{
+    background-color: var(--accent);
+    padding: var(--sp-xs) var(--sp-sm);
+    border: none;
+    border-radius: 20px;
+  }
+  .button a{
+    color: var(--background);
+    text-decoration: none;
+    font-weight: 600;
+  }

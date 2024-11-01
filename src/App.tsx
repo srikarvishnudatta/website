@@ -1,6 +1,6 @@
-import About from "./About"
-import Experience from "./Experience"
-import Projects from "./Projects"
+import About from "./components/About"
+import Experience from "./components/Experience"
+import ProjectsComponent from "./components/ProjectsComponent"
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="main-container">
       <About />
       <Experience />
-      <Projects />
+      <ProjectsComponent />
     </div>
   )
 }

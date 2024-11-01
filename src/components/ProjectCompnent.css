@@ -1,0 +1,16 @@
+.project{
+    margin: var(--sp-xs) 0;
+    background-color: var(--background-grey);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--sp-sm) var(--sp-xs);
+  }
+  .project-content p{
+    color: var(--primary-lt);
+  }
+  .project-img{
+    background-color: black;
+    height: 250px;
+    width: 250px;
+  }

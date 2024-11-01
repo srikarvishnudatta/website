@@ -1,0 +1,28 @@
+.experience{
+    margin-top: var(--sp-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-md);
+  }
+  
+  .resume{
+    font-family: var(--indie-cursive);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resume::after{
+    content: "";
+    display: block;
+    top: 90px;
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    margin-left: 2px;
+    background-color: var(--accent);
+    transition: transform 0.35s ease;
+    transform: scale(0);
+  }
+  .resume:hover::after{
+    transform: scale(1);
+  }

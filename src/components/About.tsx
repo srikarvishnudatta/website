@@ -1,4 +1,5 @@
-
+import Button from "./Button"
+import  './About.css'
 function About() {
   return (
     <div className="about">
@@ -11,6 +12,7 @@ function About() {
             <div className="socials">
                 <a href="#"><img src="brand-linkedin.svg" alt="linked logo" /></a>
                 <a href=""><img src="brand-github.svg" alt="github logo" /></a>
+                <Button value="Let's connect" link="/"/>
             </div>
         </div>
     </div>

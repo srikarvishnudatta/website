@@ -1,0 +1,31 @@
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--sp-sm);
+  }
+  .img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--sp-sm);
+  }
+  .name{
+    color: var(--background);
+    font-family: var(--indie-cursive);
+    background-color: var(--accent);
+  }
+  .socials{
+    display: flex;
+    gap: var(--sp-xs);
+    align-items: flex-end;
+  }
+  .socials img{
+    height: 36px;
+    width: 36px;
+  }
