@@ -29,3 +29,8 @@
   .resume:hover::after{
     transform: scale(1);
   }
+  @media (max-width: 550px) {
+    .resume::after{
+      display: none;
+    }
+  }
