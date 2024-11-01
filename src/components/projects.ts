@@ -11,8 +11,8 @@ export const data: ProjectType[] = [{
     projectName: "Splits App",
     projectStack: ["React", "Springboot", "TypeScript", "Java", "SQL", "AWS"],
     projectDescription: "A web app to split expenses among friends without a need for them to create an account. ",
-    projectImg:"/project",
-    projectLink:""
+    projectImg:"/",
+    projectLink:"https://github.com/srikarvishnudatta/splits-frontend"
 }, 
 {
     projectid:2,
@@ -20,7 +20,7 @@ export const data: ProjectType[] = [{
     projectStack: ["Python", "PyTorch", "Pandas", "Matplotlib"],
     projectDescription: "A CNN based model to detect human emotionss",
     projectImg:"/project",
-    projectLink:""
+    projectLink:"https://github.com/srikarvishnudatta/COMP-6721-AI"
 
 }, 
 {
@@ -29,7 +29,7 @@ export const data: ProjectType[] = [{
     projectStack: ["React", "Springboot", "Java", "SQL"],
     projectDescription: "A react based job application portal for both recruiters and candidates to apply for jobs.",
     projectImg:"/project",
-    projectLink:""
+    projectLink:"https://github.com/srikarvishnudatta/AgileMinds-Soen6011summer2023"
 
 }, 
 {
@@ -38,7 +38,7 @@ export const data: ProjectType[] = [{
     projectStack: ["Python", "Elasticsearch", "Kibana", "Docker", "Kubenetes"],
     projectDescription: "A react based job application portal for both recruiters and candidates to apply for jobs.",
     projectImg:"/project",
-    projectLink:""
+    projectLink:"https://github.com/srikarvishnudatta/Elasticsearch-and-Kubernetes"
 
 }, 
 ]

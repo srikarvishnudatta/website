@@ -11,7 +11,7 @@ function ProjectCard(props: ProjectType) {
         <ul className="skills-section">
           {props.projectStack.map((skill) => <Skill name={skill}/>)}
         </ul>
-        <Button link="/" value="Github" width={100}/>
+        <Button link={props.projectLink} value="Github" width={100}/>
         </div>
         <div className="project-img">
             

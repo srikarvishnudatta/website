@@ -3,7 +3,7 @@ function Experience() {
   return (
 <div className="experience">
   <div className="resume">
-    <h2><a href="">Resume</a></h2>
+    <h2><a href="https://drive.google.com/file/d/15-UOAKrvOg_J36E321bCkLsK8jj36217/view?usp=share_link">Resume</a></h2>
     <img src="external-link.svg" alt="link logo"/>
   </div>
   <p>
