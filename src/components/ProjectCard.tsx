@@ -13,8 +13,8 @@ function ProjectCard(props: ProjectType) {
         </ul>
         <Button link={props.projectLink} value="Github" width={100}/>
         </div>
-        <div className="project-img">
-            
+        <div>
+            <img src={props.projectImg} alt="" className="project-img" />
         </div>
     </div>
   )
