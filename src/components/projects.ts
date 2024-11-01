@@ -11,7 +11,7 @@ export const data: ProjectType[] = [{
     projectName: "Splits App",
     projectStack: ["React", "Springboot", "TypeScript", "Java", "SQL", "AWS"],
     projectDescription: "A web app to split expenses among friends without a need for them to create an account. ",
-    projectImg:"/src/images/project-1.png",
+    projectImg:"images/project-1.png",
     projectLink:"https://github.com/srikarvishnudatta/splits-frontend"
 }, 
 {
@@ -19,7 +19,7 @@ export const data: ProjectType[] = [{
     projectName: "Emotion Detection Analysis",
     projectStack: ["Python", "PyTorch", "Pandas", "Matplotlib"],
     projectDescription: "A CNN based model to detect human emotionss",
-    projectImg:"/src/images/project-2.png",
+    projectImg:"images/project-2.png",
     projectLink:"https://github.com/srikarvishnudatta/COMP-6721-AI"
 
 }, 
@@ -28,7 +28,7 @@ export const data: ProjectType[] = [{
     projectName: "A job based application system",
     projectStack: ["React", "Springboot", "Java", "SQL"],
     projectDescription: "A react based job application portal for both recruiters and candidates to apply for jobs.",
-    projectImg:"/src/images/project-3.png",
+    projectImg:"images/project-3.png",
     projectLink:"https://github.com/srikarvishnudatta/AgileMinds-Soen6011summer2023"
 
 }, 
@@ -37,7 +37,7 @@ export const data: ProjectType[] = [{
     projectName: "Elasticsearch and kubernetes",
     projectStack: ["Python", "Elasticsearch", "Kibana", "Docker", "Kubenetes"],
     projectDescription: "A react based job application portal for both recruiters and candidates to apply for jobs.",
-    projectImg:"/src/images/project-4.png",
+    projectImg:"images/project-4.png",
     projectLink:"https://github.com/srikarvishnudatta/Elasticsearch-and-Kubernetes"
 
 }, 
