@@ -1,5 +1,6 @@
 import Button from "./Button"
 import { ProjectType } from "./projects"
+import Skill from "./Skill"
 
 function ProjectCard(props: ProjectType) {
   return (
@@ -7,7 +8,9 @@ function ProjectCard(props: ProjectType) {
         <div className="project-content">
         <h2>{props.projectName}</h2>
         <p>{props.projectDescription}</p>
-        <p>{props.projectStack}</p>
+        <ul className="skills-section">
+          {props.projectStack.map((skill) => <Skill name={skill}/>)}
+        </ul>
         <Button link="/" value="Github" width={100}/>
         </div>
         <div className="project-img">

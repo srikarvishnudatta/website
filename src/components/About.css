@@ -29,3 +29,19 @@
     height: 36px;
     width: 36px;
   }
+  @media (max-width: 580px) {
+    .about{
+      display: block;
+    }
+    .description h1{
+      text-align: center;
+    }
+    .img-wrapper{
+      display: flex;
+      justify-content: center;
+      margin-bottom: var(--sp-sm);
+    }
+    .socials{
+      justify-content: center;
+    }
+  }

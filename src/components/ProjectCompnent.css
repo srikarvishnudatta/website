@@ -6,6 +6,7 @@
     justify-content: space-between;
     padding: var(--sp-sm) var(--sp-xs);
   }
+
   .project-content p{
     color: var(--primary-lt);
   }
@@ -13,4 +14,23 @@
     background-color: black;
     height: 250px;
     width: 250px;
+  }
+  .skills-section{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--sp-xs);
+    margin-top: var(--sp-sm);
+    margin-bottom: var(--sp-md);
+  }
+  @media (max-width: 600px) {
+    .skills-section{
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .project{
+      display: block;
+    }
+    .project-img{
+      margin-top: var(--sp-xs);
+    }
   }

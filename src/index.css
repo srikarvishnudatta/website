@@ -4,11 +4,12 @@
   --indie-cursive: "Indie Flower", cursive;
   --loto: "Lato", sans-serif;
 
-  --background: hsl(50, 35%, 93%);
+  --background: hsl(0, 0%, 100%);
   --primary: hsl(231, 13%, 11%) ;
-  --primary-lt: hsl(225, 11%, 64%);
+  --primary-lt: hsl(225, 8%, 61%);
   --accent: hsl(228, 76%, 56%);
-  --background-grey: hsl(0, 0%, 98%);
+  --accent-lt: hsl(228, 76%, 66%);
+  --background-grey: hsl(1, 2%, 97%);
 
   --fs-sm: 1rem;
   --fs-md: 2rem;
@@ -65,9 +66,14 @@ p{
 }
 
 
-
-@media (max-width : 600px) {
+@media (max-width: 950px) {
   .main-container{
     display: block;
   }
+  .experience{
+    margin-bottom: var(--sp-sm);
+  }
 }
+
+
+

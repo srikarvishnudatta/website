@@ -3,7 +3,7 @@ function Experience() {
   return (
 <div className="experience">
   <div className="resume">
-    <h2>Resume</h2>
+    <h2><a href="">Resume</a></h2>
     <img src="external-link.svg" alt="link logo"/>
   </div>
   <p>

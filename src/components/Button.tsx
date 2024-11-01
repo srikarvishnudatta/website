@@ -8,8 +8,8 @@ interface ButtonType{
 function Button(props: ButtonType) {
   return (
     <div className="button" style={{width: `${props.width}px`}}>
-        <a href={props.link}>{props.value}</a>
-
+        <a href={props.link}>{props.value}
+        </a>
     </div>
   )
 }

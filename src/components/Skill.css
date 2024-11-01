@@ -1,0 +1,6 @@
+.skill{
+    background-color: var(--background);
+    padding: var(--sp-xs) var(--sp-sm);
+    text-align: center;
+    border-radius: 20px;
+}
