@@ -31,7 +31,7 @@ body{
   color: var(--primary);
   font-size: var(--fs-sm);
 }
-h1,h2{
+h1,h2,h3{
   line-height: 1.1;
   font-family: var(--indie-cursive);
 }
@@ -42,6 +42,9 @@ h1{
 h2{
   font-size: var(--fs-md);
   margin: 0;
+}
+h3{
+  font-size: 1.5rem;
 }
 p{
   line-height: 1.5;
@@ -61,9 +64,13 @@ p{
 .experience{
   grid-column: span 3;
 }
+.education{
+  grid-column: span 8;
+}
 .projects{
   grid-column: span 8;
 }
+
 
 
 @media (max-width: 950px) {

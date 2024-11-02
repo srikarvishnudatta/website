@@ -2,6 +2,7 @@ import About from "./components/About"
 import Experience from "./components/Experience"
 import ProjectsComponent from "./components/ProjectsComponent"
 import 'animate.css'
+import Education from "./components/Education"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <About />
       <Experience />
       <ProjectsComponent />
+      <Education />
     </div>
   )
 }

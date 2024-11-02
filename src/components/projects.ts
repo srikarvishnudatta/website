@@ -25,7 +25,7 @@ export const data: ProjectType[] = [{
 }, 
 {
     projectid:3,
-    projectName: "A job based application system",
+    projectName: "A Indeed Clone",
     projectStack: ["React", "Springboot", "Java", "SQL"],
     projectDescription: "A react based job application portal for both recruiters and candidates to apply for jobs.",
     projectImg:"images/project-3.png",
